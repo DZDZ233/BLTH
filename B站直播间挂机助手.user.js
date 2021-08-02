@@ -17,7 +17,18 @@
 // @compatible     opera 69 or later
 // @compatible     safari 13.1 or later
 // @version        5.7.8.1
-// @exclude        *://live.bilibili.com/*
+// @match        *://*.bilibili.com/*
+// @exclude      *://*.bilibili.com/*/mobile.html
+// @exclude      *://*.bilibili.com/api/*
+// @exclude      *://api.bilibili.com/*
+// @exclude      *://api.*.bilibili.com/*
+// @exclude      *://live.bilibili.com/h5/*
+// @exclude      *://live.bilibili.com/*/h5/*
+// @exclude      *://m.bilibili.com/*
+// @exclude      *://mall.bilibili.com/*
+// @exclude      *://member.bilibili.com/studio/bs-editor/*
+// @exclude      *://www.bilibili.com/h5/*
+// @exclude      *://www.bilibili.com/*/h5/*
 // @include        /https?:\/\/live\.bilibili\.com\/[blanc\/]?[^?]*?\d+\??.*/
 // @run-at         document-start
 // @connect        passport.bilibili.com
