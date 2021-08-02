@@ -17,6 +17,7 @@
 // @compatible     opera 69 or later
 // @compatible     safari 13.1 or later
 // @version        5.7.8.1
+// @exclude        *://live.bilibili.com/*
 // @include        /https?:\/\/live\.bilibili\.com\/[blanc\/]?[^?]*?\d+\??.*/
 // @run-at         document-start
 // @connect        passport.bilibili.com
